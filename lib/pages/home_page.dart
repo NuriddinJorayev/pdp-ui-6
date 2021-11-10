@@ -11,14 +11,11 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  bool islogin = true;
+  bool islogin = false;
 
   @override
   Widget build(BuildContext context) {
-    double getWidth = MediaQuery
-        .of(context)
-        .size
-        .width;
+    double getWidth = MediaQuery.of(context).size.width;
     return Scaffold(
         body: Container(
           width: double.infinity,
